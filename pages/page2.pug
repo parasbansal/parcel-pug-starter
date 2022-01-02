@@ -1,0 +1,15 @@
+extends ../layouts/page.layout.pug
+
+block title
+  title Page 2 - title
+
+block content
+  .logo-container
+    a.icon-button.hide(title="Next Page" href="/pages/page1.pug")
+      | this could be a link to another page
+
+  .content
+    .container
+      h1 container text for page 2
+
+    include ../components/example-component.pug

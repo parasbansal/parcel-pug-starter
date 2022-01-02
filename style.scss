@@ -1,0 +1,18 @@
+$brandPrimaryColor: #444444;
+$backgroundColor: #f5f5f5;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+body {
+  background: $backgroundColor;
+}
+.container {
+  padding: 3rem;
+}
